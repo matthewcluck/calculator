@@ -1,0 +1,116 @@
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.724);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(188, 153, 107);
+}
+
+span {
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+    margin: auto;
+}
+
+.calc {
+    display: flex;
+    height: 500px;
+    width: 300px;
+    background-color: #4a4646e8;
+    margin-top: 40px;
+    border-radius: 4px;
+    flex-wrap: wrap;
+}
+
+.screen {
+    display: flex;
+    height: 90px;
+    width: 280px;
+    /* background-color: rgb(0, 255, 174); */
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-width: .5px;
+    border-color: rgb(50, 48, 48);
+    border: solid;
+    justify-content: right;
+    padding-right: 10px;
+    align-items: center;
+    background: #1f4037;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #99f2c8, #385e54);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #99f2c8, #385e54); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.btn {
+    display: flex;
+    height: 58px;
+    width: 58px;
+    border-radius: 4px;
+    background-color: beige;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 0;
+    border-width: 2px;
+    border-color: black;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.btn:hover{
+    font-size: x-large;
+}
+
+.btn:active{
+    transition-delay: 1ms;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    border: 3px solid rgba(47, 45, 45, 0.591);
+}
+
+#eq:active{
+    color: white;
+    /* font-size: xx-large; */
+}
+
+#C:active{
+    color: white;
+    /* font-size: xx-large; */
+}
+
+.btn-container {
+    display: flex;
+    border: solid;
+    border-color: rgba(50, 48, 48, 0.123);
+    border-width: 5px;
+    height: 370px;
+    width: 280px;
+    margin: 10px;
+    background-color: #4a4646e8;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+#C {
+    background-color: rgba(233, 89, 89, 0.806);
+}
+
+#eq {
+    background-color: rgba(95, 202, 95, 0.692);
+}
